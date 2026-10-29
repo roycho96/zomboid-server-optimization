@@ -1,0 +1,13 @@
+/build/
+/dist/
+/payload/*.jar
+/tools/*.jar
+/results/
+__pycache__/
+*.jfr
+*.log
+*.zip
+projectzomboid.jar
+pzopt/
+.venv/
+.env*

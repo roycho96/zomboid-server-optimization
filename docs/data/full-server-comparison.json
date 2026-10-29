@@ -1,0 +1,737 @@
+{
+  "scope": "Same actual Windows server JVM, 191 loaded mods, default Sandbox, Muldraugh stock map, four loopback FakeClientManager clients and 10000 zombies",
+  "production_sha256": "bbb1344d6fbd2be835a9fcde189a4b5027682936f09cd91d2ec6220b1a2e64a2",
+  "changed_lab_class": "CoreSettings toggles only; optimization helpers and transformed game classes retain production bytes",
+  "completed": false,
+  "stages": [
+    {
+      "phase": "A0",
+      "enabled": false,
+      "players": 4,
+      "zombies": 10000,
+      "start_ms": 1793264606709,
+      "end_ms": 1793264634849,
+      "main_cpu_ms_per_s": {
+        "n": 28,
+        "median": 995.0248756218906,
+        "p95": 1011.5786852589641,
+        "p25": 980.453187250996,
+        "p75": 998.003992015968
+      },
+      "process_cpu_ms_per_s": {
+        "n": 28,
+        "median": 1012.0849718473501,
+        "p95": 1071.6948310139164,
+        "p25": 1008.5650446871898,
+        "p75": 1029.1916167664672
+      },
+      "tick_window_medians_ms": {
+        "n": 4,
+        "median": 2819.5,
+        "p95": 2955,
+        "p25": 2702,
+        "p75": 2913
+      },
+      "tick_window_p95_ms": {
+        "n": 4,
+        "median": 2941.0,
+        "p95": 2962,
+        "p25": 2719,
+        "p75": 2956
+      },
+      "main_stack_samples": 2610,
+      "main_inclusive_frames": [
+        [
+          "LoadLabProcess.main",
+          2610
+        ],
+        [
+          "zombie.network.GameServer.main",
+          2610
+        ],
+        [
+          "zombie.network.ServerMap.postupdate",
+          2563
+        ],
+        [
+          "zombie.popman.NetworkZombiePacker.postupdate",
+          2563
+        ],
+        [
+          "roy.pzcore.ZombieRequestIndex.containsOrRemember",
+          1966
+        ],
+        [
+          "java.util.LinkedList.indexOf",
+          1966
+        ],
+        [
+          "java.util.LinkedList.contains",
+          1966
+        ],
+        [
+          "zombie.network.PacketsCache.getPacket",
+          350
+        ],
+        [
+          "zombie.gameStates.IngameState.update",
+          26
+        ],
+        [
+          "zombie.gameStates.IngameState.updateInternal",
+          26
+        ],
+        [
+          "zombie.network.PacketTypes$PacketType.onServerPacket",
+          19
+        ],
+        [
+          "zombie.network.GameServer.mainLoopDealWithNetData",
+          19
+        ],
+        [
+          "java.util.HashMap.getNode",
+          19
+        ],
+        [
+          "zombie.characters.ecs.ECSEntity.tryGetECSComponent",
+          16
+        ],
+        [
+          "java.util.HashMap.get",
+          16
+        ]
+      ],
+      "gc_count": 0,
+      "gc_total_ms": 0.0
+    },
+    {
+      "phase": "B0",
+      "enabled": true,
+      "players": 4,
+      "zombies": 10000,
+      "start_ms": 1793264646849,
+      "end_ms": 1793264674975,
+      "main_cpu_ms_per_s": {
+        "n": 28,
+        "median": 530.1901488342166,
+        "p95": 608.7662337662339,
+        "p25": 405.439121756487,
+        "p75": 577.5474525474526
+      },
+      "process_cpu_ms_per_s": {
+        "n": 28,
+        "median": 593.1568431568433,
+        "p95": 2448.2285429141716,
+        "p25": 530.7192807192807,
+        "p75": 671.2037962037963
+      },
+      "tick_window_medians_ms": {
+        "n": 5,
+        "median": 100,
+        "p95": 100,
+        "p25": 99,
+        "p75": 100
+      },
+      "tick_window_p95_ms": {
+        "n": 5,
+        "median": 116,
+        "p95": 120,
+        "p25": 115,
+        "p75": 117
+      },
+      "main_stack_samples": 1289,
+      "main_inclusive_frames": [
+        [
+          "LoadLabProcess.main",
+          1289
+        ],
+        [
+          "zombie.network.GameServer.main",
+          1289
+        ],
+        [
+          "zombie.network.ServerMap.postupdate",
+          638
+        ],
+        [
+          "zombie.popman.NetworkZombiePacker.postupdate",
+          638
+        ],
+        [
+          "zombie.gameStates.IngameState.update",
+          527
+        ],
+        [
+          "zombie.gameStates.IngameState.updateInternal",
+          526
+        ],
+        [
+          "roy.pzcore.ZombieRequestIndex.prepare",
+          435
+        ],
+        [
+          "zombie.iso.IsoWorld.updateWorld",
+          414
+        ],
+        [
+          "zombie.iso.IsoWorld.update",
+          414
+        ],
+        [
+          "zombie.iso.IsoWorld.updateInternal",
+          414
+        ],
+        [
+          "zombie.iso.IsoCell.update",
+          411
+        ],
+        [
+          "zombie.iso.IsoCell.updateInternal",
+          411
+        ],
+        [
+          "zombie.iso.IsoCell.ProcessObjects",
+          357
+        ],
+        [
+          "zombie.MovingObjectUpdateSchedulerUpdateBucket.update",
+          354
+        ],
+        [
+          "zombie.MovingObjectUpdateScheduler.pzoptUpdate",
+          354
+        ]
+      ],
+      "gc_count": 8,
+      "gc_total_ms": 880.769
+    },
+    {
+      "phase": "A1",
+      "enabled": false,
+      "players": 4,
+      "zombies": 10000,
+      "start_ms": 1793264686975,
+      "end_ms": 1793264715101,
+      "main_cpu_ms_per_s": {
+        "n": 28,
+        "median": 996.512454667869,
+        "p95": 1010.5721393034827,
+        "p25": 980.453187250996,
+        "p75": 999.0009990009991
+      },
+      "process_cpu_ms_per_s": {
+        "n": 28,
+        "median": 1028.6785601279994,
+        "p95": 1103.8557213930349,
+        "p25": 1009.5675944333996,
+        "p75": 1044.7854291417166
+      },
+      "tick_window_medians_ms": {
+        "n": 5,
+        "median": 5120,
+        "p95": 5225,
+        "p25": 5099,
+        "p75": 5139
+      },
+      "tick_window_p95_ms": {
+        "n": 5,
+        "median": 5120,
+        "p95": 5225,
+        "p25": 5099,
+        "p75": 5139
+      },
+      "main_stack_samples": 2619,
+      "main_inclusive_frames": [
+        [
+          "LoadLabProcess.main",
+          2619
+        ],
+        [
+          "zombie.network.GameServer.main",
+          2619
+        ],
+        [
+          "zombie.network.ServerMap.postupdate",
+          2572
+        ],
+        [
+          "zombie.popman.NetworkZombiePacker.postupdate",
+          2572
+        ],
+        [
+          "roy.pzcore.ZombieRequestIndex.containsOrRemember",
+          2224
+        ],
+        [
+          "java.util.LinkedList.indexOf",
+          2224
+        ],
+        [
+          "java.util.LinkedList.contains",
+          2224
+        ],
+        [
+          "zombie.network.PacketTypes$PacketType.onServerPacket",
+          25
+        ],
+        [
+          "zombie.network.GameServer.mainLoopDealWithNetData",
+          25
+        ],
+        [
+          "zombie.network.packets.INetworkPacket.parseServer",
+          24
+        ],
+        [
+          "zombie.network.packets.character.ZombieSimulationPacket.parse",
+          24
+        ],
+        [
+          "zombie.popman.NetworkZombiePacker.parseZombie",
+          24
+        ],
+        [
+          "zombie.gameStates.IngameState.update",
+          22
+        ],
+        [
+          "zombie.gameStates.IngameState.updateInternal",
+          22
+        ],
+        [
+          "java.util.HashMap.getNode",
+          17
+        ]
+      ],
+      "gc_count": 0,
+      "gc_total_ms": 0.0
+    },
+    {
+      "phase": "B1",
+      "enabled": true,
+      "players": 4,
+      "zombies": 10000,
+      "start_ms": 1793264727101,
+      "end_ms": 1793264755229,
+      "main_cpu_ms_per_s": {
+        "n": 28,
+        "median": 499.2512477542418,
+        "p95": 545.7834331337325,
+        "p25": 468.2817182817183,
+        "p75": 515.1098901098902
+      },
+      "process_cpu_ms_per_s": {
+        "n": 28,
+        "median": 662.0536317802641,
+        "p95": 1278.6926147704592,
+        "p25": 576.9710578842315,
+        "p75": 702.4225774225775
+      },
+      "tick_window_medians_ms": {
+        "n": 5,
+        "median": 99,
+        "p95": 100,
+        "p25": 98,
+        "p75": 100
+      },
+      "tick_window_p95_ms": {
+        "n": 5,
+        "median": 118,
+        "p95": 126,
+        "p25": 114,
+        "p75": 126
+      },
+      "main_stack_samples": 1277,
+      "main_inclusive_frames": [
+        [
+          "LoadLabProcess.main",
+          1277
+        ],
+        [
+          "zombie.network.GameServer.main",
+          1277
+        ],
+        [
+          "zombie.network.ServerMap.postupdate",
+          699
+        ],
+        [
+          "zombie.popman.NetworkZombiePacker.postupdate",
+          698
+        ],
+        [
+          "roy.pzcore.ZombieRequestIndex.prepare",
+          556
+        ],
+        [
+          "zombie.gameStates.IngameState.update",
+          468
+        ],
+        [
+          "zombie.gameStates.IngameState.updateInternal",
+          468
+        ],
+        [
+          "zombie.iso.IsoWorld.updateWorld",
+          407
+        ],
+        [
+          "zombie.iso.IsoWorld.update",
+          407
+        ],
+        [
+          "zombie.iso.IsoWorld.updateInternal",
+          407
+        ],
+        [
+          "zombie.iso.IsoCell.update",
+          403
+        ],
+        [
+          "zombie.iso.IsoCell.updateInternal",
+          403
+        ],
+        [
+          "zombie.iso.IsoCell.ProcessObjects",
+          376
+        ],
+        [
+          "zombie.MovingObjectUpdateSchedulerUpdateBucket.update",
+          369
+        ],
+        [
+          "zombie.MovingObjectUpdateScheduler.pzoptUpdate",
+          369
+        ]
+      ],
+      "gc_count": 5,
+      "gc_total_ms": 754.8478
+    },
+    {
+      "phase": "A2",
+      "enabled": false,
+      "players": 4,
+      "zombies": 10000,
+      "start_ms": 1793264767229,
+      "end_ms": 1793264795356,
+      "main_cpu_ms_per_s": {
+        "n": 28,
+        "median": 995.0248756218906,
+        "p95": 1012.5872382851446,
+        "p25": 995.0248756218906,
+        "p75": 998.003992015968
+      },
+      "process_cpu_ms_per_s": {
+        "n": 28,
+        "median": 1026.6304186240113,
+        "p95": 1077.047952047952,
+        "p25": 1012.5872382851446,
+        "p75": 1057.2139303482588
+      },
+      "tick_window_medians_ms": {
+        "n": 3,
+        "median": 8794,
+        "p95": 8830,
+        "p25": 8424,
+        "p75": 8830
+      },
+      "tick_window_p95_ms": {
+        "n": 3,
+        "median": 8794,
+        "p95": 8830,
+        "p25": 8424,
+        "p75": 8830
+      },
+      "main_stack_samples": 2618,
+      "main_inclusive_frames": [
+        [
+          "LoadLabProcess.main",
+          2618
+        ],
+        [
+          "zombie.network.GameServer.main",
+          2618
+        ],
+        [
+          "zombie.network.ServerMap.postupdate",
+          2585
+        ],
+        [
+          "zombie.popman.NetworkZombiePacker.postupdate",
+          2585
+        ],
+        [
+          "roy.pzcore.ZombieRequestIndex.containsOrRemember",
+          2301
+        ],
+        [
+          "java.util.LinkedList.indexOf",
+          2301
+        ],
+        [
+          "java.util.LinkedList.contains",
+          2301
+        ],
+        [
+          "zombie.network.PacketTypes$PacketType.onServerPacket",
+          23
+        ],
+        [
+          "zombie.network.GameServer.mainLoopDealWithNetData",
+          23
+        ],
+        [
+          "zombie.network.packets.INetworkPacket.parseServer",
+          22
+        ],
+        [
+          "zombie.network.packets.character.ZombieSimulationPacket.parse",
+          22
+        ],
+        [
+          "zombie.popman.NetworkZombiePacker.parseZombie",
+          22
+        ],
+        [
+          "java.util.HashMap.getNode",
+          11
+        ],
+        [
+          "zombie.gameStates.IngameState.update",
+          10
+        ],
+        [
+          "zombie.gameStates.IngameState.updateInternal",
+          10
+        ]
+      ],
+      "gc_count": 0,
+      "gc_total_ms": 0.0
+    },
+    {
+      "phase": "B2",
+      "enabled": true,
+      "players": 4,
+      "zombies": 10000,
+      "start_ms": 1793264807356,
+      "end_ms": 1793264835481,
+      "main_cpu_ms_per_s": {
+        "n": 28,
+        "median": 546.0560522312019,
+        "p95": 577.5474525474526,
+        "p25": 514.5958083832336,
+        "p75": 561.938061938062
+      },
+      "process_cpu_ms_per_s": {
+        "n": 28,
+        "median": 818.6681837604071,
+        "p95": 9006.618381618382,
+        "p25": 623.7524950099801,
+        "p75": 920.0349301397206
+      },
+      "tick_window_medians_ms": {
+        "n": 4,
+        "median": 100.0,
+        "p95": 102,
+        "p25": 100,
+        "p75": 100
+      },
+      "tick_window_p95_ms": {
+        "n": 4,
+        "median": 117.5,
+        "p95": 121,
+        "p25": 113,
+        "p75": 120
+      },
+      "main_stack_samples": 1407,
+      "main_inclusive_frames": [
+        [
+          "LoadLabProcess.main",
+          1407
+        ],
+        [
+          "zombie.network.GameServer.main",
+          1407
+        ],
+        [
+          "zombie.network.ServerMap.postupdate",
+          812
+        ],
+        [
+          "zombie.popman.NetworkZombiePacker.postupdate",
+          808
+        ],
+        [
+          "roy.pzcore.ZombieRequestIndex.prepare",
+          670
+        ],
+        [
+          "zombie.gameStates.IngameState.update",
+          477
+        ],
+        [
+          "zombie.gameStates.IngameState.updateInternal",
+          477
+        ],
+        [
+          "java.util.IdentityHashMap.put",
+          453
+        ],
+        [
+          "zombie.iso.IsoWorld.updateInternal",
+          389
+        ],
+        [
+          "zombie.iso.IsoWorld.update",
+          389
+        ],
+        [
+          "zombie.iso.IsoWorld.updateWorld",
+          388
+        ],
+        [
+          "zombie.iso.IsoCell.update",
+          383
+        ],
+        [
+          "zombie.iso.IsoCell.updateInternal",
+          383
+        ],
+        [
+          "zombie.iso.IsoCell.ProcessObjects",
+          355
+        ],
+        [
+          "zombie.MovingObjectUpdateSchedulerUpdateBucket.update",
+          348
+        ]
+      ],
+      "gc_count": 15,
+      "gc_total_ms": 2219.276
+    },
+    {
+      "phase": "A3",
+      "enabled": false,
+      "players": 4,
+      "zombies": 10000,
+      "start_ms": 1793264847481,
+      "end_ms": 1793264860650,
+      "main_cpu_ms_per_s": {
+        "n": 11,
+        "median": 996.01593625498,
+        "p95": 1012.5872382851446,
+        "p25": 995.0248756218906,
+        "p75": 1010.5721393034827
+      },
+      "process_cpu_ms_per_s": {
+        "n": 11,
+        "median": 1026.1194029850747,
+        "p95": 1356.6616766467066,
+        "p25": 996.01593625498,
+        "p75": 1058.2669322709164
+      },
+      "tick_window_medians_ms": {
+        "n": 0,
+        "median": null,
+        "p95": null,
+        "p25": null,
+        "p75": null
+      },
+      "tick_window_p95_ms": {
+        "n": 0,
+        "median": null,
+        "p95": null,
+        "p25": null,
+        "p75": null
+      },
+      "main_stack_samples": 1151,
+      "main_inclusive_frames": [
+        [
+          "LoadLabProcess.main",
+          1151
+        ],
+        [
+          "zombie.network.GameServer.main",
+          1151
+        ],
+        [
+          "zombie.network.ServerMap.postupdate",
+          1016
+        ],
+        [
+          "zombie.popman.NetworkZombiePacker.postupdate",
+          985
+        ],
+        [
+          "roy.pzcore.ZombieRequestIndex.containsOrRemember",
+          878
+        ],
+        [
+          "java.util.LinkedList.indexOf",
+          878
+        ],
+        [
+          "java.util.LinkedList.contains",
+          878
+        ],
+        [
+          "zombie.network.ServerMap$ServerCell.Load2",
+          87
+        ],
+        [
+          "zombie.network.ServerMap.preupdate",
+          87
+        ],
+        [
+          "zombie.network.ServerMap$ServerCell.RecalcAll2",
+          87
+        ],
+        [
+          "zombie.iso.IsoChunk.doLoadGridsquare",
+          83
+        ],
+        [
+          "zombie.Lua.Event.trigger",
+          75
+        ],
+        [
+          "zombie.Lua.LuaEventManager.triggerEvent",
+          75
+        ],
+        [
+          "pzopt.LuaEventProfile.call",
+          74
+        ],
+        [
+          "se.krka.kahlua.integration.LuaCaller.pcallvoid",
+          74
+        ]
+      ],
+      "gc_count": 4,
+      "gc_total_ms": 524.27
+    }
+  ],
+  "population_constant": false,
+  "worker_errors": [],
+  "minimum_samples_passed": false,
+  "first_last_baseline_drift": {
+    "main_cpu_ms_per_s": 0.0009960159362549792,
+    "tick_window_medians_ms": null,
+    "tick_window_p95_ms": null
+  },
+  "timing_valid": false,
+  "reduction_fraction_if_valid": {
+    "main_cpu_ms_per_s": null,
+    "tick_window_medians_ms": null,
+    "tick_window_p95_ms": null
+  },
+  "canary_rule": "Reject overall gain if any first/last baseline median CPU or tick metric drifts above 5%; do not discard an arm after seeing results.",
+  "limits": [
+    "All clients run locally without rendering or participant Lua; no human gameplay or remote network claim.",
+    "Tick statistics are medians/p95 of separate five-second windows, not global per-tick percentiles.",
+    "CPU per second is saturated in slow arms and must be assessed with tick throughput.",
+    "Startup/JIT, world state, queue fill and AI continue; an invalid canary prevents an overall speedup claim.",
+    "A fixed 0.4.0 ballistics Lua snapshot is used in every arm; this test does not measure new aiming behavior."
+  ]
+}

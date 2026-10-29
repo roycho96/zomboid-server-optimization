@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "checks": {
+    "controller_passed": true,
+    "sixty_seconds": true,
+    "population_constant": true,
+    "enough_samples": true,
+    "no_worker_exception": true,
+    "no_experimental_switch": true,
+    "current_installed_artifact": true,
+    "current_ballistics_sources": true,
+    "all_own_processes_exited": true,
+    "mods_191": true
+  },
+  "server_version": "0.6.0",
+  "production_artifact_sha256": "bbb1344d6fbd2be835a9fcde189a4b5027682936f09cd91d2ec6220b1a2e64a2",
+  "steady_seconds": 60.205,
+  "main_cpu_ms_per_s": {
+    "n": 48,
+    "median": 234.02402238480084,
+    "p95": 296.57842157842157,
+    "p25": 218.313373253493,
+    "p75": 249.500998003992
+  },
+  "tick_window_medians_ms": {
+    "n": 8,
+    "median": 100.0,
+    "p95": 101,
+    "p25": 100,
+    "p75": 100
+  },
+  "tick_window_p95_ms": {
+    "n": 8,
+    "median": 111.0,
+    "p95": 114,
+    "p25": 110,
+    "p75": 112
+  },
+  "no_baseline_comparison": true,
+  "speedup_claimed": false,
+  "limitations": [
+    "One-minute smoke check; not a long-term stability proof.",
+    "Four native FakeClientManager clients have no renderer or client Lua, so new aiming/hit logic is not exercised.",
+    "Default Sandbox, stock Muldraugh map, loopback and same-PC processes; no friend-host or remote network claim.",
+    "CPU samples and per-five-second-window tick summaries are not global frame percentiles."
+  ],
+  "game_jar_sha256": "e1a69eb743ede60b213a0fe7f8b83d4fcab773036d256cc4543a336f3b058a33",
+  "workload": {
+    "mods": 191,
+    "players": 4,
+    "zombies": 10000,
+    "map": "Muldraugh stock map",
+    "default_sandbox": true,
+    "loopback": true
+  }
+}

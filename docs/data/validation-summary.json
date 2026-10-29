@@ -1,0 +1,158 @@
+{
+  "version": "0.6.0",
+  "game_version": "42.21.0",
+  "artifact_sha256": "bbb1344d6fbd2be835a9fcde189a4b5027682936f09cd91d2ec6220b1a2e64a2",
+  "installer_sha256": "9290f494997da2f2ad179878b1901ff2caa225f4a94189dbaad5bc6bcab9844d",
+  "installer_passed": true,
+  "installer_cases": [
+    {
+      "name": "fresh_False",
+      "passed": true,
+      "checks": 17
+    },
+    {
+      "name": "fresh_True",
+      "passed": true,
+      "checks": 17
+    },
+    {
+      "name": "migrate_0_2_False",
+      "passed": true,
+      "checks": 14
+    },
+    {
+      "name": "migrate_0_2_True",
+      "passed": true,
+      "checks": 14
+    },
+    {
+      "name": "migrate_0_3_False",
+      "passed": true,
+      "checks": 13
+    },
+    {
+      "name": "migrate_0_3_True",
+      "passed": true,
+      "checks": 13
+    },
+    {
+      "name": "migrate_0_4_False",
+      "passed": true,
+      "checks": 13
+    },
+    {
+      "name": "migrate_0_4_True",
+      "passed": true,
+      "checks": 13
+    },
+    {
+      "name": "migrate_0_5_False",
+      "passed": true,
+      "checks": 13
+    },
+    {
+      "name": "migrate_0_5_True",
+      "passed": true,
+      "checks": 13
+    },
+    {
+      "name": "reject_0_4_without_state_on_install",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "reject_0_5_without_state_on_install",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "update_current_after_pzopt_reorder",
+      "passed": true,
+      "checks": 12
+    },
+    {
+      "name": "companion_preserve_during_install_update_uninstall",
+      "passed": true,
+      "checks": 6
+    },
+    {
+      "name": "companion_mismatched_hash_rejected",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "reject_unknown_classpath",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "reject_legacy_jar",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "reject_payload",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "reject_optimizer",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "reject_missing_state",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "reject_clean_backup",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "rollback_Install",
+      "passed": true,
+      "checks": 5
+    },
+    {
+      "name": "rollback_Update",
+      "passed": true,
+      "checks": 5
+    },
+    {
+      "name": "rollback_Uninstall",
+      "passed": true,
+      "checks": 5
+    },
+    {
+      "name": "preserve_settings_and_original_game",
+      "passed": true,
+      "checks": 4
+    },
+    {
+      "name": "vocals_guard_can_be_disabled_independently",
+      "passed": true,
+      "checks": 2
+    },
+    {
+      "name": "request_and_direction_can_be_disabled",
+      "passed": true,
+      "checks": 2
+    }
+  ],
+  "installer_checks": 217,
+  "native_membership_assertions_per_runtime": 256832,
+  "native_membership_runtimes": 3,
+  "request_assertions_per_runtime": 2740,
+  "request_runtimes": 2,
+  "direction_assertions": 234413,
+  "installed_checks": 28,
+  "human_multiplayer_verified": false,
+  "data_sha256": {
+    "direction-benchmark.json": "f904548ee53109f3466956eb7375ce4742d25caf194019a712ff6b634407bfaf",
+    "full-server-comparison.json": "e1f2b49cbe33acea3060a765e66b976bc3582480a668259353b5c1229875feeb",
+    "runtime-smoke.json": "eecdb800035679d619900b43ce9d12d220774fdc89b974fa9926de81a989e7b3",
+    "request-benchmark.json": "82d5e0e1f5195d92778dab19c77e92fdb41f4f306ba77d92526dd23621dbb5b5"
+  }
+}

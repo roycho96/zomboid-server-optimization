@@ -1,0 +1,71 @@
+{
+  "schema_version": 2,
+  "package_id": "roy-server-opt",
+  "version": "0.6.0",
+  "game_version": "42.21.0",
+  "game_jar_sha256": "e1a69eb743ede60b213a0fe7f8b83d4fcab773036d256cc4543a336f3b058a33",
+  "optimizer_jar_sha256": "ec5c8b38bc88b0e3db88c1d658f9209095aa195fc62178082bda223b46ccc1ef",
+  "known_optimizer_sha256": [
+    "2be86df6a25c3ef4f509fa1b5c0ddab6627225c3553dee5c576a70bedb12b857",
+    "ec5c8b38bc88b0e3db88c1d658f9209095aa195fc62178082bda223b46ccc1ef"
+  ],
+  "files": {
+    "payload/roy-server-helpers-0.6.0.jar": "00b1c0cf6e8144cff92ed994d2885cec032dec2dd04ea339f6bd20a7a0b23cfe",
+    "payload/roy-server-recipe-0.6.0.jar": "9f649991e89d47396b298291ce821c7fc7cd542c76c3e6c992ca29aac8aef0a4",
+    "tools/asm-9.9.1.jar": "6f3828a215c920059a5efa2fb55c233d6c54ec5cadca99ce1b1bdd10077c7ddd",
+    "tools/asm-tree-9.9.1.jar": "0f3555096b720b820bbacab0b515589bee0200bee099bda14c561738ae837ba1",
+    "licenses/ASM-BSD-3-Clause.txt": "337e92fd361effe495d03978a34a3cd44681a63b8329adfd99c8996b306b2a8c"
+  },
+  "legacy_jars": {
+    "roy-server-opt/roy-server-opt-0.5.0.jar": "f840dc2a337f63260aa7149053fd3d406ced4718291ecc38c4a379d38129eb24",
+    "roy-server-opt/roy-server-opt-0.4.0.jar": "ed55b69849a7b74b5c86144008805050450c59becfc6b9ec736b69700bfb6876",
+    "roy-server-opt/roy-server-opt-0.2.0.jar": "6ef8928679f9dd520004575c187217f6bedf5c8ec45aac402359e01f9621fe09",
+    "roy-server-opt/roy-server-opt-0.3.0.jar": "7261ccb171d3b30aa834d21ee1744a97588add3457c0889e6f8e8e56a8576a2d",
+    "roy-core/roy-core-0.1.0.jar": "6ef8928679f9dd520004575c187217f6bedf5c8ec45aac402359e01f9621fe09",
+    "roy-net/roy-vehicle-net-0.1.0.jar": "8568df3631e3c77f93be98a62d85b35d4abb6ff857d1b7883e4231303f685067"
+  },
+  "source_classes": {
+    "zombie/iso/IsoCell.class": "5e9a88e1cd9a3f370e31ae0152c9de381d649caea7cab750ebc82a91b4e1f767",
+    "zombie/network/PacketsCache.class": "7ef3fccf76e5e59405ca96f932d391f1705f3b131037183ee30b891a1961642e",
+    "zombie/popman/NetworkZombiePacker.class": "5b202038b360877e8a308265e6bf7ce720e34d0c3670adfb3a7c5dbddaf5197e",
+    "zombie/iso/Vector2.class": "9d6c5bb38ab9dfe5eab3edf7ba02f0f2442f0d84db4d330f494f528f198b6ce9",
+    "zombie/network/ServerLOS.class": "e20464c8afe47944913033ac4de0672980696ceac8e3ef59d22d24bac9ec546c"
+  },
+  "generated_classes": {
+    "zombie/iso/IsoCell.class": "030a3a4526bcc9ac43b951f1b5cdd0b232dc132eae3a0b46fd04375708e2f6fb",
+    "zombie/network/PacketsCache.class": "eed3e0c837fd6ddf316fbf5520e552dbb3b586fe31ec14129e8436b7edcb177a",
+    "zombie/popman/NetworkZombiePacker.class": "e50b5b4dbd452d3a926593b3d3a1757a183781d43238912f878878f0efdec723",
+    "zombie/iso/Vector2.class": "aa1c6d02a4e1b6b986e9abbbf3915d7ae485252af41b22a4223c77aee1b2185b",
+    "zombie/network/ServerLOS.class": "2d2698ec939bdf1f3e80f730a1849a987415da404e391194a1a3fd8b19ce48d4"
+  },
+  "expected_generated_entries": {
+    "roy/pzcore/CoreSettings.class": "523e15316e24fe0908b546e4ff66d675b05d00e7ae3112bac19926c3002a0e5f",
+    "roy/pzcore/PacketRateWindows$Window.class": "eeba42fe7ac2c895cb7055bc8fb9ea4fe7b3d3f46a339907d85e4f7a6fa41dbe",
+    "roy/pzcore/PacketRateWindows.class": "8e5a8628d554c1cfa8ec0de2e69c092c61bbfbd90d0cc7fa9c87017a54708506",
+    "roy/pzcore/RoyPacketLimits.class": "cce791fa8ccc6a0c8aebbffecdd5c2e51fdcf187a21d0026af65b065cd24ee92",
+    "roy/pzcore/ServerDirectionMemo.class": "dae9c8086160c51e7214566d7a248f0c30c3601732c4957810dd9ea7e2657c7f",
+    "roy/pzcore/ServerZombieMembership.class": "9dee86f783a7df9a750d4921371e1ab85da7dcba6882f8e8901ed7c720cb3b63",
+    "roy/pzcore/ZombieRequestIndex.class": "9a8c31ca9fffe6a98515ee2b1d7e9f780e675b484803dc5eb38ae9b9c706af07",
+    "zombie/iso/IsoCell.class": "030a3a4526bcc9ac43b951f1b5cdd0b232dc132eae3a0b46fd04375708e2f6fb",
+    "zombie/iso/Vector2.class": "aa1c6d02a4e1b6b986e9abbbf3915d7ae485252af41b22a4223c77aee1b2185b",
+    "zombie/network/PacketsCache.class": "eed3e0c837fd6ddf316fbf5520e552dbb3b586fe31ec14129e8436b7edcb177a",
+    "zombie/network/ServerLOS.class": "2d2698ec939bdf1f3e80f730a1849a987415da404e391194a1a3fd8b19ce48d4",
+    "zombie/popman/NetworkZombiePacker.class": "e50b5b4dbd452d3a926593b3d3a1757a183781d43238912f878878f0efdec723"
+  },
+  "generated_artifact_sha256": "bbb1344d6fbd2be835a9fcde189a4b5027682936f09cd91d2ec6220b1a2e64a2",
+  "validation": {
+    "iso_cell": true,
+    "rate_windows": true,
+    "rate_cache_integration": true,
+    "shared_settings": true,
+    "server_zombie_vocals": true,
+    "server_zombie_membership_sources": true,
+    "server_zombie_requests": true,
+    "server_direction_memo": true
+  },
+  "game_classes_distributed": false,
+  "game_server_transformed": false,
+  "packet_inbox_included": false,
+  "packet_batching_default": false,
+  "live_multiplayer_verified": false
+}

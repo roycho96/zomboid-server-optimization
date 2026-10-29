@@ -1,0 +1,8 @@
+ASM 9.9.1 / ASM Tree 9.9.1
+공식 프로젝트: https://asm.ow2.io/
+배포 파일: tools/asm-9.9.1.jar, tools/asm-tree-9.9.1.jar
+라이선스: BSD 3-Clause
+원문: https://asm.ow2.io/LICENSE.txt
+전체 조건: licenses/ASM-BSD-3-Clause.txt
+
+이 패키지는 Project Zomboid 게임 class 파일과 PZ Optimizer 파일을 재배포하지 않습니다. 필요한 패치는 사용자가 설치한 게임 jar에서 로컬로 생성합니다.
